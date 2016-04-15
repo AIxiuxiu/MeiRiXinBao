@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  News
+//
+//  Created by ink on 15/1/15.
+//  Copyright (c) 2015年 ink. All rights reserved.
+//
+
+#ifndef News_PrefixHeader_pch
+#define News_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "APP_CONF.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
+#import "UIImageView+AFNetworking.h"
+#import "MBProgressHUD.h"
+#import "CustomEncrypt.h"
+#import "BDKNotifyHUD.h"
+#import "Connect.h"
+#endif
